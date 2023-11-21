@@ -836,7 +836,7 @@ h1 {
   background-size: cover;
   height: 600px;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 0;
 }
 
 .ddd {
@@ -903,7 +903,7 @@ button:hover {
     background-size: cover;
     height: 600px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
