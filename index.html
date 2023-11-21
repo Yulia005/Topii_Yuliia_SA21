@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Рафаель"</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <button id="scrollToTopBtn" class="scroll-to-top-button">
+      <img src="./image/upButton.png" alt="" />
+    </button>
+    <header class="header" id="main_page">
+      <div class="header__container">
+        <div class="phone_button">
+          <div class="header__info">
+            <a href="tel:+380676725542">+38 (067) 672 55 42</a>
+          </div>
+        </div>
+        <div class="burger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#main_page" id="scroll-link">ГОЛОВНА СТОРІНКА</a></li>
+            <li><a class="menu__item" href="#aboutUs" id="scroll-link">ПРО НАС</a></li>
+            <li>
+              <a class="menu__item" href="#Pool" id="scroll-link">RAFAEL POOL &amp; LOUNGE</a>
+            </li>
+            <li><a class="menu__item" href="#Menu" id="scroll-link">МЕНЮ</a></li>
+            <li><a class="menu__item" href="#Form" id="scroll-link">ЗВОРОТНИЙ ЗВ'ЯЗОК</a></li>
+            <li>
+              <a class="menu__item" href="#Info" id="scroll-link">КОНТАКТИ &amp; РОЗТАШУВАННЯ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main_name">
+          <h1>RAFAEL</h1>
+          <div class="header__content-text">Harmony of rest</div>
+        </div>
+        <div class="header_menu">
+          <a href="#aboutUs">ПРО НАС</a>
+          <a href="#Pool">RAFAEL POOL &amp; LOUNGE</a>
+          <a href="#Menu">МЕНЮ</a>
+          <a href="#Form">ЗВОРОТНИЙ ЗВ'ЯЗОК</a>
+          <a href="#Info">КОНТАКТИ &amp; РОЗТАШУВАННЯ</a>
+        </div>
+      </div>
+      <video class="video__header" autoplay muted loop>
+        <source type="video/mp4" src="./video/background-video.mp4" />
+      </video>
+    </header>
+    <main>
+      <section class="about" id="aboutUs">
+        <div class="container">
+          <h2 class="section__title">ПРО НАС</h2>
+          <div class="about__text">
+            <p>
+              Rafael- новий, затишний ресторан, що відповідає європейським стандартам <br />і
+              знаходиться на окраїні старовинного міста Львова.
+            </p>
+          </div>
+          <div class="image-containerAbout">
+            <div class="aboutPicture">
+              <img src="./image/about_1.png" alt="Image 1" />
+            </div>
+            <div class="aboutPicture">
+              <img src="./image/about_2.png" alt="Image 2" />
+            </div>
+          </div>
+          <span>Можна не суміватись, що &nbsp; <b> Rafael </b>- завжди гарна ідея, адже: </span>
+          <div class="about__text">
+            <p>
+              Для запального вечора можна обрати Party-Bar з космічним меню, баром та шикарними
+              фотозонами:
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="slideshow-container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <div class="mySlides">
+              <img src="./image/collage1.png" alt="partyBar_picture#1" />
+            </div>
+
+            <div class="mySlides">
+              <img src="./image/collage2 .png" alt="partyBar_picture#2" />
+            </div>
+
+            <div class="mySlides">
+              <img src="./image/collage3.png" alt="partyBar_picture#3" />
+            </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        <div class="container">
+          <div class="about__text">
+            <p>Також ми з радістю допоможемо створити теплі спогади про Вашу особливу подію:</p>
+          </div>
+          <section class="Prices" id="Prices">
+            <div class="price-list">
+              <div class="card">
+                <h3>ВЕЛИКИЙ БЕНКЕТНИЙ ЗАЛ</h3>
+                <img src="./image/колаж_1.png" alt="largeHall" />
+                <div class="hall_info">
+                  <p><b>максимальна кількість осіб:</b> 160</p>
+                  <p><b>для святкування:</b> весілля, випускний, день народження, корпоратив</p>
+                  <p><b>ціна з особи:</b> 1700 грн-2000 грн</p>
+                </div>
+              </div>
+              <div class="card">
+                <h3>МАЛИЙ БЕНКЕТНИЙ ЗАЛ</h3>
+                <img src="./image/колаж_4.png" alt="averageHall" />
+                <div class="hall_info">
+                  <p><b>максимальна кількість осіб:</b> 120</p>
+                  <p><b>для святкування:</b> весілля, день народження, корпоратив, випускний</p>
+                  <p><b>ціна з особи:</b> 1700грн-2000 грн</p>
+                </div>
+              </div>
+              <div class="card">
+                <h3>МАЛИЙ ЗАЛ</h3>
+                <img src="./image/small_30Hall .png" alt="smallHall" />
+                <div class="hall_info">
+                  <p><b>максимальна кількість осіб:</b> 30</p>
+                  <p><b>для святкування:</b> день народження, дитячий день народження</p>
+                  <p><b>ціна з особи:</b> 1700 грн</p>
+                </div>
+              </div>
+              <div class="card">
+                <h3>VIP ЗАЛ</h3>
+                <img src="./image/VIP.png" alt="VIP_Hall" />
+                <div class="hall_info">
+                  <p><b>максимальна кількість осіб:</b> 16</p>
+                  <p><b>для святкування:</b> мітинг, конференція, приватне святкування</p>
+                  <p><b>ціна з особи:</b> 1700 грн</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- <div class="img_cnt_5">
+            <div class="image-container_5">
+              <div class="smallPictureCollage">
+                <img src="./image/колаж_1.png" alt="hall" />
+              </div>
+              <div class="smallPictureCollage">
+                <img src="./image/колаж_2.png" alt="bar" />
+              </div>
+            </div>
+            <div class="big_photo_about">
+              <img src="./image/колаж_3.png" alt="hall-2" />
+            </div>
+            <div class="image-container_5">
+              <div class="smallPictureCollage">
+                <img src="./image/колаж_4.png" alt="hall-3" />
+              </div>
+              <div class="smallPictureCollage">
+                <img src="./image/колаж_5.png" alt="hall-4" />
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="pool" id="Pool">
+        <div class="container">
+          <h2 class="section__title">RAFAEL POOL&amp; LOUNGE</h2>
+          <div class="image-containerPool">
+            <div class="photo_pool"><img src="./image/pool_1.png" alt="" /></div>
+            <div class="photo_pool"><img src="./image/pool_2.png" alt="" /></div>
+          </div>
+          <div class="aboutPoolContainer">
+            <div class="about-pool">
+              <p>Чекаємо Вас в RAFAEL POOL&amp; LOUNGE з <b>10:00-20:00!</b><br /></p>
+
+              <p><b>ЦІНИ:</b><br /></p>
+
+              <p>Будні дні - <b>550 ₴</b> з особи<br /></p>
+              <p>Вихідні та святкові - <b>650 ₴</b> з особи<br /></p>
+              <p>Ранковий басейн з <b>7:30-9:30 - 100 ₴</b> з особи</p>
+
+              <div class="pool-little">
+                <p>
+                  У вартість квитка входить користування: дорослим, дитячим басейнами з солоною
+                  водою, джакузі, лежак, рушник
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="Menu">
+        <div class="container">
+          <h2 class="section__title">МЕНЮ</h2>
+          <div class="container_m">
+            <div class="small_pictures">
+              <div class="container__m">
+                <img src="./image/image 12.png" alt="" />
+                <img src="./image/image 13.png" alt="" />
+                <img src="./image/image 14.png" alt="" />
+              </div>
+              <div class="container__m">
+                <img src="./image/image 15.png" alt="" />
+                <img src="./image/image 16.png" alt="" />
+                <img src="./image/image 17.png" alt="" />
+              </div>
+              <div class="container__m">
+                <img src="./image/image 18.png" alt="" />
+                <img src="./image/image 19.png" alt="" />
+                <img src="./image/image 20.png" alt="" />
+              </div>
+            </div>
+            <div class="large-image">
+              <img src="./image/menu_1.png" alt="" />
+            </div>
+          </div>
+          <div class="dishes">
+            <div class="dishes_container">
+              <img src="./image/dishes.png" alt="" />
+            </div>
+            <div class="dishes_container">
+              <img src="./image/drinks.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="contactForm" id="Form">
+          <div class="ddd">
+            <p>Маєш питання? Залиш його тут!</p>
+            <div class="FormContainer">
+              <form>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
+
+                <button class="formButton" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div class="containerFooter" id="Info">
+          <div class="NameFooter">
+            <p>RAFAEL</p>
+          </div>
+          <div class="SocialMediaFooter">
+            <div class="sn">
+              <a href="https://www.facebook.com/profile.php?id=100069764615951"
+                ><img src="./image/facebook icon.png" alt="facebook"
+              /></a>
+              <a
+                href="https://www.instagram.com/rafael_restaurant_hotel/?igshid=MzRlODBiNWFlZA%3D%3D"
+                ><img src="./image/instagram icon.png" alt="instagram"
+              /></a>
+            </div>
+          </div>
+          <div class="DataFooter">
+            <p>
+              <b>Адреса:</b>с. Зубра, Кільцева дорога Львова, вул. Гонти 1 А. (551-й кілометр траси
+              Київ-Чоп Е40)
+            </p>
+            <div class="email_contact">
+              <p><b>E-mail:</b> <a href="#">info@rafael.com.ua</a></p>
+            </div>
+            <p><b>Телефон басейну:</b>+38 (097) 252 52 42</p>
+            <p><b>Телефон ресторану:</b>+38 (067) 672 55 42</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
