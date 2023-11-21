@@ -693,6 +693,7 @@ h1 {
     margin: 0 0 10px 0;
   }
   .aboutPicture {
+    max-width:80%;
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
@@ -1155,7 +1156,7 @@ button:hover {
     margin-bottom: 0;
   }
   .card {
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 20px;
     flex-direction: column;
     display: flex;
